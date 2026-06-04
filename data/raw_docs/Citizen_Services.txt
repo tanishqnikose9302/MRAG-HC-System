@@ -1,0 +1,5 @@
+Citizen Services Information
+
+1. Birth certificate application can be made through local authorities.
+2. Digital copies of documents can be stored in DigiLocker.
+3. Aadhaar can be used as identity proof for various services.
