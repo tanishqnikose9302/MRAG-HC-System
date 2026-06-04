@@ -1,0 +1,16 @@
+streamlit
+fastapi
+uvicorn
+langchain
+faiss-cpu
+sentence-transformers
+pypdf
+pdfplumber
+pytesseract
+pillow
+numpy
+scikit-learn
+transformers
+torch
+langdetect
+googletrans==4.0.0-rc1
