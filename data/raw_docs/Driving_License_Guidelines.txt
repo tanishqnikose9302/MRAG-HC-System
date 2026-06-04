@@ -1,0 +1,7 @@
+Driving Licence Application Procedure
+
+1. Applicant must be at least 18 years old for LMV.
+2. Valid identity proof is required.
+3. Address proof is mandatory.
+4. Learner's licence test must be passed.
+5. Driving test is required for permanent licence.
