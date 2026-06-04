@@ -1,0 +1,38 @@
+                    ┌──────────────────────────────┐
+                    │        Frontend UI           │
+                    │ Streamlit / React (Prod UI)  │
+                    └─────────────┬────────────────┘
+                                  │
+                                  ▼
+                    ┌──────────────────────────────┐
+                    │        API Gateway           │
+                    │ FastAPI (Production Backend) │
+                    └─────────────┬────────────────┘
+                                  │
+        ┌─────────────────────────┼─────────────────────────┐
+        ▼                         ▼                         ▼
+┌──────────────┐       ┌──────────────────┐     ┌──────────────────┐
+│ Auth Service │       │ RAG Orchestrator │     │ Logging System   │
+│ JWT-based    │       │ Core Pipeline    │     │ Prometheus Logs  │
+└──────────────┘       └─────────┬────────┘     └──────────────────┘
+                                  │
+                                  ▼
+            ┌────────────────────────────────────────┐
+            │  AI Processing Layer                   │
+            │  - Embeddings (BGE / MiniLM)          │
+            │  - Vector DB (FAISS / Qdrant)         │
+            │  - LLM (Llama 3 / GPT API)            │
+            └───────────────┬────────────────────────┘
+                            │
+                            ▼
+            ┌────────────────────────────────────────┐
+            │ Hallucination Control Engine           │
+            │ - Fact verification                    │
+            │ - Source grounding                     │
+            │ - Confidence scoring                  │
+            └───────────────┬────────────────────────┘
+                            │
+                            ▼
+            ┌────────────────────────────────────────┐
+            │ Response + Citations Engine            │
+            └────────────────────────────────────────┘
