@@ -1,4 +1,4 @@
-#PIPELINE (RAG CORE)
+#PIPELINE (RAG CORE) Phase-1 
 from embeddings.embedder import get_embedding
 from rag.generator import generate_answer
 
